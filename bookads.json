@@ -13,7 +13,7 @@
     "native_enabled": true
   },
   "applovin_config": {
-    "sdk_key": "YOUR_APPLOVIN_SDK_KEY",
+    "sdk_key": "Xpp1uS4zwHJLbH3ym1nnuWv4VChvo8RyTiTpFZcW_zRTmHkGTAtuKJq6BHWUA4bUtTKGP9uH6EpfqXyixKp2FI",
     "banner_ad_unit_id": "YOUR_BANNER_AD_UNIT_ID",
     "interstitial_ad_unit_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
     "rewarded_ad_unit_id": "YOUR_REWARDED_AD_UNIT_ID",
