@@ -24,7 +24,7 @@
     "native_enabled": false
   },
   "placement_config": {
-    "show_banner_in_post_list": true,
+    "show_banner_in_post_list": false,
     "show_banner_in_post_detail": false,
     "show_banner_in_favorites": true,
     "show_banner_in_settings": false,
@@ -33,8 +33,8 @@
     "show_interstitial_on_category_change": false,
     "show_rewarded_for_unlock_content": true,
     "show_rewarded_for_remove_ads": true,
-    "show_native_in_post_list": true,
-    "show_native_in_post_detail": false,
+    "show_native_in_post_list": false,
+    "show_native_in_post_detail": true,
     "interstitial_frequency": 5,
     "native_ad_frequency": 8
   },
