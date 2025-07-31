@@ -7,25 +7,29 @@
     "interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
     "rewarded_ad_unit_id": "ca-app-pub-3940256099942544/5224354917",
     "native_ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
+    "app_open_ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
     "banner_enabled": true,
     "interstitial_enabled": true,
     "rewarded_enabled": true,
-    "native_enabled": true
+    "native_enabled": true,
+    "app_open_enabled": true
   },
   "applovin_config": {
-    "sdk_key": "Xpp1uS4zwHJLbH3ym1nnuWv4VChvo8RyTiTpFZcW_zRTmHkGTAtuKJq6BHWUA4bUtTKGP9uH6EpfqXyixKp2FI",
+    "sdk_key": "YOUR_APPLOVIN_SDK_KEY",
     "banner_ad_unit_id": "YOUR_BANNER_AD_UNIT_ID",
     "interstitial_ad_unit_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
     "rewarded_ad_unit_id": "YOUR_REWARDED_AD_UNIT_ID",
     "native_ad_unit_id": "YOUR_NATIVE_AD_UNIT_ID",
+    "app_open_ad_unit_id": "YOUR_APP_OPEN_AD_UNIT_ID",
     "banner_enabled": false,
     "interstitial_enabled": false,
     "rewarded_enabled": false,
-    "native_enabled": false
+    "native_enabled": false,
+    "app_open_enabled": false
   },
   "placement_config": {
-    "show_banner_in_post_list": false,
-    "show_banner_in_post_detail": false,
+    "show_banner_in_post_list": true,
+    "show_banner_in_post_detail": true,
     "show_banner_in_favorites": true,
     "show_banner_in_settings": false,
     "show_interstitial_on_post_open": true,
@@ -33,15 +37,18 @@
     "show_interstitial_on_category_change": false,
     "show_rewarded_for_unlock_content": true,
     "show_rewarded_for_remove_ads": true,
-    "show_native_in_post_list": false,
-    "show_native_in_post_detail": true,
+    "show_native_in_post_list": true,
+    "show_native_in_post_detail": false,
+    "show_app_open_on_app_resume": true,
+    "show_app_open_on_app_start": true,
     "interstitial_frequency": 5,
-    "native_ad_frequency": 8
+    "native_ad_frequency": 8,
+    "app_open_frequency": 3
   },
   "behavior_config": {
     "interstitial_cooldown_seconds": 60,
     "rewarded_cooldown_seconds": 30,
-    "app_open_ad_cooldown_seconds": 300,
+    "app_open_ad_cooldown_seconds": 100,
     "enable_ad_tracking": true,
     "enable_test_mode": true,
     "max_interstitial_per_session": 10,
