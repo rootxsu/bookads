@@ -37,18 +37,18 @@
     "show_interstitial_on_category_change": false,
     "show_rewarded_for_unlock_content": true,
     "show_rewarded_for_remove_ads": true,
-    "show_native_in_post_list": true,
+    "show_native_in_post_list": false,
     "show_native_in_post_detail": false,
     "show_app_open_on_app_resume": true,
     "show_app_open_on_app_start": true,
     "interstitial_frequency": 5,
     "native_ad_frequency": 8,
-    "app_open_frequency": 3
+    "app_open_frequency": 2
   },
   "behavior_config": {
     "interstitial_cooldown_seconds": 60,
     "rewarded_cooldown_seconds": 30,
-    "app_open_ad_cooldown_seconds": 100,
+    "app_open_ad_cooldown_seconds": 30,
     "enable_ad_tracking": true,
     "enable_test_mode": true,
     "max_interstitial_per_session": 10,
